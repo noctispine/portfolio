@@ -77,7 +77,7 @@ export const about: AboutInterface[] = [
   {
     Icon: FaLaptopCode,
     title: "Frontend Development",
-    body: "I feel prepared to be a junior frontend developer and looking for a job.",
+    body: "I feel prepared to be a junior frontend developer and currently, looking for a job.",
   },
   {
     Icon: FaServer,
