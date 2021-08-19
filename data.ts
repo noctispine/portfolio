@@ -103,8 +103,8 @@ export const projects: ProjectInterface[] = [
     name: "Portfolio",
     description: "It's my personal portfolio website.",
     image_url: "/images/portfolio.png",
-    live_url: "http://blooming-springs-71172.herokuapp.com/",
-    github_url: "https://github.com/noctispine/message-board",
+    live_url: "https://www.erencam.dev/",
+    github_url: "https://github.com/noctispine/portfolio",
     tags: ["nextjs", "typescript", "tailwindcss"],
   },
 
