@@ -29,7 +29,7 @@ const About = () => {
         <span className="ml-5"></span>I am currently pursuing my third year
         Bachelor in Computer Engineering. Since the start of this marathon, I
         have tried numerous different fields to explore myself and currently,
-        I'm trying to develop myself as a full-stack engineer.
+        I&apos;m trying to develop myself as a full-stack engineer.
       </motion.h3>
       <div className="mt-7 ">
         <h5 className="ml-5 overflow-hidden text-2xl tracking-wide text-left sm:text-3xl lg:text-4xl w-80 text-white-button text-opacity-80">
