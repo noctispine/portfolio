@@ -11,8 +11,7 @@ const ProjectSection = () => {
   return (
     <div style={{ marginTop: "-1rem" }}>
       <div
-        className="relative grid grid-cols-12 gap-4 my-3"
-        style={{ height: "60vh" }}
+        className="relative grid grid-cols-12 gap-4 my-3 h-60vh"
       >
         {projects.map((project) => (
           <motion.div
@@ -20,7 +19,7 @@ const ProjectSection = () => {
             initial="initial"
             animate="animate"
             key={project.id}
-            className="col-span-12 p-2 sm:col-span-6 xl:col-span-4"
+            className="col-span-12 p-2 md:col-span-6 xl:col-span-4"
           >
             <Project data={project} showDetail={showDetail} setShowDetail={setShowDetail} id={project.id}/>
           </motion.div>
