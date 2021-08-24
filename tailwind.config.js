@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       height: {
         '60vh': '60vh',
+        '65vh': '65vh',
         '80vh': '80vh',
       },
       animation: {
