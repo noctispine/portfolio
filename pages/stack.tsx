@@ -1,7 +1,7 @@
 import StackSection from '../components/StackSection'
 
 const stack = () => {
-    return <div className='p-4 overflow-x-hidden overflow-y-scroll h-65vh'>
+    return <div className='p-4 overflow-x-hidden overflow-y-scroll h-80vh'>
         <StackSection />
     </div>
 
