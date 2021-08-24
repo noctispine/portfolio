@@ -13,9 +13,8 @@ class MyDocument extends Document {
           <meta charSet="utf-8" lang="en" />
           <meta
             name="description"
-            content="Software Engineer, MERN, Fullstack."
+            content="Eren Çam, Software Engineer, MERN, Fullstack."
           ></meta>
-          <meta name="description" content="Looking for a job."></meta>
           <link rel="preconnect" href="https://fonts.googleapis.com" />
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link

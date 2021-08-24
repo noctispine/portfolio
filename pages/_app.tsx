@@ -12,9 +12,8 @@ function MyApp({ Component, pageProps }) {
         </div>
         <div className="flex flex-col col-span-12 text-center bg-gray-card xl:col-span-9 rounded-2xl shadow-card ">
           <Navbar />
-          <div className="overflow-x-hidden overflow-y-scroll h-60vh">
-            <Component {...pageProps} />
-          </div>
+
+          <Component {...pageProps} />
         </div>
       </div>
     </>
