@@ -11,7 +11,7 @@ const ProjectSection = () => {
   return (
     <div style={{ marginTop: "-1rem" }}>
       <div
-        className="relative grid grid-cols-12 gap-4 my-3 h-60vh"
+        className="relative grid grid-cols-12 gap-4 my-3"
       >
         {projects.map((project) => (
           <motion.div

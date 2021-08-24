@@ -20,7 +20,7 @@ const Sidebar = () => {
         Çam
       </h3>
       <h3 className="px-2 py-1 mx-4 my-4 rounded-full text-opacity-90 text-white-button bg-gray-banner ">
-       Web Developer
+       Software Engineer
       </h3>
 
       {/* Links */}
