@@ -58,6 +58,7 @@ const Project: FunctionComponent<{
               <a
                 href={github_url}
                 target="_blank"
+                rel="noreferrer"
                 className="flex items-center px-5 py-2 space-x-1 bg-opacity-100 bg-gray-card"
               >
                 <FaGithubSquare className="w-8 h-8" color="#F09666" />
@@ -66,6 +67,7 @@ const Project: FunctionComponent<{
               <a
                 href={live_url}
                 target="_blank"
+                rel="noreferrer"
                 className="flex items-center px-5 py-2 space-x-1 bg-opacity-100 bg-gray-card"
               >
                 <AiFillProject className="w-8 h-8" color="#F09666" />

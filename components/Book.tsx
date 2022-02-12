@@ -39,7 +39,7 @@ const Book = (props: Props) => {
             {book.author[0]}
           </p>
 
-          <a href={book.url} target="_blank" className="p-2 mr-3">
+          <a href={book.url} target="_blank" rel="noreferrer" className="p-2 mr-3">
             <BiLinkExternal className="w-8 h-8" opacity={0.67} color="white" />
           </a>
         </div>
