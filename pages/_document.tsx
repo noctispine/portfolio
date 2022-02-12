@@ -23,7 +23,7 @@ class MyDocument extends Document {
           />
           <link rel="shortcut icon" href="/pine.ico" />
         </Head>
-        <body className="font-carme">
+        <body className="font-carme xl:overflow-hidden">
           <Main />
           <NextScript />
         </body>
