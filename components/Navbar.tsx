@@ -45,7 +45,9 @@ const Navbar = () => {
       ? setContent("about")
       : pathname === "/projects"
       ? setContent("projects")
-      : setContent("stack");
+      : pathname === '/stack'
+      ? setContent("stack")
+      : setContent('library')
   }, [pathname]);
 
   return (
@@ -71,6 +73,12 @@ const Navbar = () => {
           setContent={setContent}
           name="stack"
           route="/stack"
+        />
+        <NavItem
+          content={content}
+          setContent={setContent}
+          name="library"
+          route="/library"
         />
       </div>
     </div>
