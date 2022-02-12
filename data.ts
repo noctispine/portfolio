@@ -107,12 +107,12 @@ export const about: AboutInterface[] = [
   {
     Icon: FaLaptopCode,
     title: 'Frontend Development',
-    body: 'I feel prepared to be a junior frontend developer and am currently, looking for a job.',
+    body: '',
   },
   {
     Icon: FaServer,
     title: 'Backend Development',
-    body: 'Currently learning nodejs and expressjs.',
+    body: 'CRUD API, REST API, Database Design',
   },
   {
     Icon: FaRegImages,
@@ -137,9 +137,25 @@ export const projects: ProjectInterface[] = [
     github_url: 'https://github.com/noctispine/portfolio',
     tags: ['nextjs', 'typescript', 'tailwindcss'],
   },
-
   {
     id: 2,
+    name: 'Full Stack Ecommerce App',
+    description:
+      'Nodejs, Express is used to deal with the backend. Authentication API is token based (I have used JWT). MongoDB is used for the db. In the frontend part, state management is handled by using redux/redux-saga.',
+    image_url: '/images/ecommerce.png',
+    live_url: 'https://express-ecommerce.herokuapp.com/',
+    github_url: 'https://github.com/noctispine/react-ecommerce',
+    tags: [
+      'react',
+      'redux',
+      'express',
+      'nodejs',
+      'mongodb',
+      'styled-components',
+    ],
+  },
+  {
+    id: 3,
     name: 'Battleship Game',
     description:
       'The classic naval combat board game which was developed by using Test-driven development (TDD). Also, reducer was used to handle complex statement.',
@@ -149,7 +165,7 @@ export const projects: ProjectInterface[] = [
     tags: ['react', 'jest'],
   },
   {
-    id: 3,
+    id: 4,
     name: 'CV App',
     description:
       'This app provides for creating cv fastly. Also it is possible to download the created cv as pdf. ',
@@ -159,7 +175,7 @@ export const projects: ProjectInterface[] = [
     tags: ['react', 'scss'],
   },
   {
-    id: 4,
+    id: 5,
     name: 'Typing Game',
     description: 'Quote typing game.',
     image_url: '/images/quote-typing.png',
@@ -169,7 +185,7 @@ export const projects: ProjectInterface[] = [
   },
 
   {
-    id: 5,
+    id: 6,
     name: 'Message Board',
     description:
       'Basic message board website where visiters can post comments. I did it to practice Express, specifically routes and CRUD.',
