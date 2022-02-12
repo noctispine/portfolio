@@ -1,17 +1,17 @@
-import { AiFillProject } from "react-icons/ai";
-import { ProjectInterface } from "../type";
-import { MdClose } from "react-icons/md";
-import { FaGithubSquare } from "react-icons/fa";
-import Image from "next/image";
-import { motion } from "framer-motion";
-import variants from "../styles/animation";
-import { FunctionComponent } from "react";
+import { AiFillProject } from 'react-icons/ai'
+import { ProjectInterface } from '../type'
+import { MdClose } from 'react-icons/md'
+import { FaGithubSquare } from 'react-icons/fa'
+import Image from 'next/image'
+import { motion } from 'framer-motion'
+import variants from '../styles/animation'
+import { FunctionComponent } from 'react'
 
 const Project: FunctionComponent<{
-  data: ProjectInterface;
-  showDetail: null | number;
-  setShowDetail: (id: null | number) => void;
-  id: number;
+  data: ProjectInterface
+  showDetail: null | number
+  setShowDetail: (id: null | number) => void
+  id: number
 }> = ({
   data: { name, description, image_url, live_url, github_url, tags },
   showDetail,
@@ -41,7 +41,7 @@ const Project: FunctionComponent<{
           initial="initial"
           animate="animate"
           className="absolute top-0 left-0 z-10 grid w-full h-auto pb-5 rounded-xl text-white-button bg-gray-banner md:grid-cols-2 md:gap-x-5"
-          style={{ marginTop: "-1rem" }}
+          style={{ marginTop: '-1rem' }}
         >
           <div className="flex flex-col items-center justify-center">
             <div className="border-2 border-gray-100 mt-14 w-60 md:w-96 md:ml-7 md:mt-10 max-w-800px">
@@ -57,17 +57,19 @@ const Project: FunctionComponent<{
             <div className="flex space-x-10 my-9 ">
               <a
                 href={github_url}
+                target="_blank"
                 className="flex items-center px-5 py-2 space-x-1 bg-opacity-100 bg-gray-card"
               >
                 <FaGithubSquare className="w-8 h-8" color="#F09666" />
-                <span>Github</span>{" "}
+                <span>Github</span>{' '}
               </a>
               <a
                 href={live_url}
+                target="_blank"
                 className="flex items-center px-5 py-2 space-x-1 bg-opacity-100 bg-gray-card"
               >
                 <AiFillProject className="w-8 h-8" color="#F09666" />
-                <span>Live</span>{" "}
+                <span>Live</span>{' '}
               </a>
             </div>
           </div>
@@ -96,7 +98,7 @@ const Project: FunctionComponent<{
         </motion.div>
       )}
     </div>
-  );
-};
+  )
+}
 
-export default Project;
+export default Project
