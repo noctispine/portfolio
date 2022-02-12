@@ -7,12 +7,13 @@ module.exports = {
         '60vh': '60vh',
         '65vh': '65vh',
         '80vh': '80vh',
+        '9/10': '90%'
       },
       animation: {
-        blink: 'ping 2.7s linear infinite'
+        blink: 'ping 2.7s linear infinite',
       },
       minWidth: {
-        '220': '220px',
+        220: '220px',
       },
 
       borderRadius: {
@@ -29,7 +30,7 @@ module.exports = {
         },
         yellow: {
           //button: '#F09666'
-          button: '#ff8f00'
+          button: '#ff8f00',
         },
         gray: {
           body: '#121212',
@@ -45,15 +46,15 @@ module.exports = {
       },
 
       boxShadow: {
-        'card': '0px 17px 12px 3px rgba(0,0,0,0.84);'
+        card: '0px 17px 12px 3px rgba(0,0,0,0.84);',
       },
     },
     fontFamily: {
-      'carme': ['Carme'],
+      carme: ['Carme'],
     },
     backdropFilter: {
-      'none': 'none',
-      'blur': 'blur(20px)',
+      none: 'none',
+      blur: 'blur(20px)',
     },
   },
   variants: {
