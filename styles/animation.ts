@@ -3,6 +3,11 @@ const variants = {
     initial: { opacity: 0 },
     animate: { opacity: 1, transition: { duration: 0.8 } },
   },
+
+  fadeInLonger: {
+    initial: { opacity: 0 },
+    animate: { opacity: 1, transition: { duration: 1.2 } },
+  },
   FadeInInfinitely: {
     initial: { opacity: 1 },
     animate: {
@@ -37,6 +42,6 @@ const variants = {
     initial: { opacity: 0, y: 35 },
     animate: { opacity: 1, y: 0, transition: { duration: 0.8 } },
   },
-};
+}
 
-export default variants;
+export default variants
